@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="091ce72a-4727-4e66-9ea7-02173df83ffb" name="Changes" comment="">
+    <list default="true" id="091ce72a-4727-4e66-9ea7-02173df83ffb" name="Changes" comment="Refactoring app&#10;- Improved update logic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/auth/auth.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/auth/auth.controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/auth/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/auth/auth.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/users/dto/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/dto/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/users/users.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/users.controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/users/users.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/users.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/watchlist/response/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/watchlist/response/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/watchlist/watchlist.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/watchlist/watchlist.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/watchlist/watchlist.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/watchlist/watchlist.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,8 +109,16 @@
       <workItem from="1676842927359" duration="1797000" />
       <workItem from="1677423650322" duration="598000" />
       <workItem from="1677608960173" duration="634000" />
-      <workItem from="1677837258781" duration="2083000" />
+      <workItem from="1677837258781" duration="2669000" />
     </task>
+    <task id="LOCAL-00001" summary="Refactoring app&#10;- Improved update logic">
+      <created>1678023291522</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678023291522</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,5 +134,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Refactoring app&#10;- Improved update logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring app&#10;- Improved update logic" />
   </component>
 </project>

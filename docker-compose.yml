@@ -19,3 +19,8 @@ services:
     container_name: redis-lesson
     ports:
       - "6379:6379"
+
+
+
+
+

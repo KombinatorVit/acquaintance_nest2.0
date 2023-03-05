@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="091ce72a-4727-4e66-9ea7-02173df83ffb" name="Changes" comment="Refactoring app&#10;- Create change password logic">
+    <list default="true" id="091ce72a-4727-4e66-9ea7-02173df83ffb" name="Changes" comment="Refactoring app&#10;- Change in user method &quot;delete user&quot; parameter email to id">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/auth/auth.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/auth/auth.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/auth/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/auth/auth.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/users/users.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/users.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/users/models/user.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/models/user.model.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/users/users.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/users.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +39,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/vitalijonisenko/Desktop/it/Run/acquaintance nest/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Users/vitalijonisenko/Desktop/it/Run/acquaintance nest/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -86,8 +87,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.start:dev" />
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.start:debug" />
       </list>
@@ -108,7 +109,8 @@
       <workItem from="1676842927359" duration="1797000" />
       <workItem from="1677423650322" duration="598000" />
       <workItem from="1677608960173" duration="634000" />
-      <workItem from="1677837258781" duration="3017000" />
+      <workItem from="1677837258781" duration="11341000" />
+      <workItem from="1678055141426" duration="1460000" />
     </task>
     <task id="LOCAL-00001" summary="Refactoring app&#10;- Improved update logic">
       <created>1678023291522</created>
@@ -124,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678023841535</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Refactoring app&#10;- Change in user method &quot;delete user&quot; parameter email to id">
+      <created>1678024376412</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678024376412</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +153,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Refactoring app&#10;- Improved update logic" />
     <MESSAGE value="Refactoring app&#10;- Create change password logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring app&#10;- Create change password logic" />
+    <MESSAGE value="Refactoring app&#10;- Change in user method &quot;delete user&quot; parameter email to id" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring app&#10;- Change in user method &quot;delete user&quot; parameter email to id" />
   </component>
 </project>

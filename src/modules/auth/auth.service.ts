@@ -9,7 +9,7 @@ import * as bcrypt from 'bcrypt'
 @Injectable()
 export class AuthService {
     constructor(
-        private readonly userService: UsersService,
+        private readonly userService: UsersService
     ) {
     }
 
@@ -19,21 +19,18 @@ export class AuthService {
             if (existUser) throw new BadRequestException(AppError.USER_EXIST)
             await this.userService.createUser(dto)
             return this.userService.publicUser(dto.email)
-
-
         } catch (e) {
             throw new BadRequestException(AppError.USER_EXIST)
         }
     }
 
-    async loginUser (dto: UserLoginDTO): Promise<AuthUserResponse | BadRequestException> {
+    async loginUser(dto: UserLoginDTO): Promise<AuthUserResponse> {
         try {
             const existUser = await this.userService.findUserByEmail(dto.email)
-            if (!existUser) return new BadRequestException(AppError.USER_NOT_EXIST)
+            if (!existUser) throw new BadRequestException(AppError.USER_NOT_EXIST)
             const validatePassword = await bcrypt.compare(dto.password, existUser.password)
-            if (!validatePassword) return new BadRequestException(AppError.WRONG_DATA)
+            if (!validatePassword) throw new BadRequestException(AppError.WRONG_DATA)
             return this.userService.publicUser(dto.email)
-
         } catch (e) {
             throw new Error(e)
         }

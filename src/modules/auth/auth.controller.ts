@@ -1,11 +1,11 @@
-import {BadRequestException, Body, Controller, Get, Post, Req, UseGuards} from "@nestjs/common";
-import {AuthService} from "./auth.service";
-import {CreateUserDTO} from "../users/dto";
-import {UserLoginDTO} from "./dto";
-import {AuthUserResponse} from "./response";
-import {ApiResponse, ApiTags} from "@nestjs/swagger";
-import {UsersService} from "../users/users.service";
-import {JwtAuthGuard} from "../../guards/jwt-guard";
+import { BadRequestException, Body, Controller, Get, Post, Req, UseGuards } from "@nestjs/common";
+import { AuthService } from "./auth.service";
+import { CreateUserDTO } from "../users/dto";
+import { UserLoginDTO } from "./dto";
+import { AuthUserResponse } from "./response";
+import { ApiBadRequestResponse, ApiResponse, ApiTags } from "@nestjs/swagger";
+import { UsersService } from "../users/users.service";
+import { JwtAuthGuard } from "../../guards/jwt-guard";
 
 
 @Controller("auth")
@@ -24,7 +24,6 @@ export class AuthController {
     }
 
     @ApiTags('API')
-    @ApiResponse({status: 200, type: AuthUserResponse})
     @Post("login")
     login(@Body() dto: UserLoginDTO): Promise<AuthUserResponse | BadRequestException> {
         return this.authService.loginUser(dto);
@@ -32,7 +31,7 @@ export class AuthController {
 
     @UseGuards(JwtAuthGuard)
     @Get('get-public-user-info')
-    getPublicUserInfo(@Req() request) {
+    getPublicUserInfo (@Req() request) {
         const user = request.user
         return this.userService.publicUser(user.email)
     }

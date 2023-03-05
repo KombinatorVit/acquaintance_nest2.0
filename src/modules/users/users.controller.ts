@@ -18,7 +18,6 @@ export class UsersController {
         return this.userService.updateUser(user.id, updateDto)
     }
 
-
     @ApiTags("API")
     @ApiResponse({status: 200})
     @UseGuards(JwtAuthGuard)
@@ -32,6 +31,6 @@ export class UsersController {
     @Delete()
     deleteUser (@Req() request): Promise<boolean>  {
         const user = request.user
-        return this.userService.deleteUser(user.email)
+        return this.userService.deleteUser(user.id)
     }
 }

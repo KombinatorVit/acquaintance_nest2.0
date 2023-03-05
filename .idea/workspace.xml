@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="091ce72a-4727-4e66-9ea7-02173df83ffb" name="Changes" comment="Refactoring app&#10;- Improved update logic">
+    <list default="true" id="091ce72a-4727-4e66-9ea7-02173df83ffb" name="Changes" comment="Refactoring app&#10;- Create change password logic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/auth/auth.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/auth/auth.controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/auth/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/auth/auth.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/users/dto/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/dto/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/users/users.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/users.controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/users/users.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/users.service.ts" afterDir="false" />
     </list>
@@ -109,7 +108,7 @@
       <workItem from="1676842927359" duration="1797000" />
       <workItem from="1677423650322" duration="598000" />
       <workItem from="1677608960173" duration="634000" />
-      <workItem from="1677837258781" duration="2669000" />
+      <workItem from="1677837258781" duration="3017000" />
     </task>
     <task id="LOCAL-00001" summary="Refactoring app&#10;- Improved update logic">
       <created>1678023291522</created>
@@ -118,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678023291522</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Refactoring app&#10;- Create change password logic">
+      <created>1678023841535</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678023841535</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +143,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Refactoring app&#10;- Improved update logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring app&#10;- Improved update logic" />
+    <MESSAGE value="Refactoring app&#10;- Create change password logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring app&#10;- Create change password logic" />
   </component>
 </project>

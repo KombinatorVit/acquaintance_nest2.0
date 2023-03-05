@@ -6,7 +6,6 @@ import {CreateUserDTO, UpdatePasswordDTO, UpdateUserDTO} from "./dto";
 import {Watchlist} from "../watchlist/models/watchlist.model";
 import {TokenService} from "../token/token.service";
 import {AuthUserResponse} from "../auth/response";
-import passport from "passport";
 import {AppError} from "../../common/constants/errors";
 
 @Injectable()
@@ -107,9 +106,9 @@ export class UsersService {
         }
     }
 
-    async deleteUser(email: string): Promise<boolean> {
+    async deleteUser(id: number): Promise<boolean> {
         try {
-            await this.userRepository.destroy({where: {email}})
+            await this.userRepository.destroy({where: {id}})
             return true
         } catch (e) {
             throw new Error(e)

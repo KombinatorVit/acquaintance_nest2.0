@@ -4,16 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="091ce72a-4727-4e66-9ea7-02173df83ffb" name="Changes" comment="" />
+    <list default="true" id="091ce72a-4727-4e66-9ea7-02173df83ffb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/auth/auth.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/auth/auth.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/auth/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/auth/auth.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/users/users.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/users.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/users/users.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/users/users.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/watchlist/response/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/watchlist/response/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/watchlist/watchlist.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/watchlist/watchlist.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/watchlist/watchlist.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/watchlist/watchlist.service.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KgcVWbdEV6296WQV61pb9cFlFO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -98,11 +111,22 @@
       <workItem from="1676842927359" duration="1797000" />
       <workItem from="1677423650322" duration="598000" />
       <workItem from="1677608960173" duration="634000" />
-      <workItem from="1677837258781" duration="1207000" />
+      <workItem from="1677837258781" duration="2083000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

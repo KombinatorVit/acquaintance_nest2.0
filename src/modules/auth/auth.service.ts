@@ -22,7 +22,7 @@ export class AuthService {
 
 
         } catch (e) {
-            throw new Error(e)
+            throw new BadRequestException(AppError.USER_EXIST)
         }
     }
 
